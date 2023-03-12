@@ -1,0 +1,27 @@
+class Orange_Locators:
+    username_input_box = 'username' 
+    password_input_box = 'password' 
+    submit_button = '//*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'
+    invalid_credentials_error = '//*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p'
+                                
+    PIM = '//*[@id="app"]/div[1]/div[1]/aside/nav/div[2]/ul/li[2]/a'
+    Add_Employee = '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[3]/a'
+    First_name = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[1]/div[1]/div/div/div[2]/div[1]/div[2]/input'
+    Middle_name = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[1]/div[1]/div/div/div[2]/div[2]/div[2]/input'
+    Last_name = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[1]/div[1]/div/div/div[2]/div[3]/div[2]/input'
+    Save_button = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[2]/button[2]'
+    Employee_full_name = '//*[@id="app"]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h6'
+    
+    Employee_info_name = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/div/div/input'
+    Search_button = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[2]/button[2]'
+    Record_1 = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[9]/div/button[2]/i'
+    Nationality_dropdown = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[1]/div[1]/div/div[2]/div/div/div[1]'                      
+    Nickname = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div[2]/div/div/div[2]/input'
+    Gender_radiobutton = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div/label/span'
+    Smoker = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[4]/div/div[2]/div/div[2]/div/label/span'                      
+    Edit_submit_button = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button'
+    
+    delete_check = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div/div/div'
+    delete_button = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div[2]/div[2]/div/div/button'
+    confirm_delete_button = '//*[@id="app"]/div[3]/div/div/div/div[3]/button[2]'
+    No_records_found = '//*[@id="app"]/div[1]/div[2]/div[2]/div/div[2]/div[2]/div/span'

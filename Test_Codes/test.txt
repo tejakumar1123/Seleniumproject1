@@ -1,0 +1,11 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-7.2.2, pluggy-1.0.0 -- C:\Users\Teja Kumar\AppData\Local\Programs\Python\Python311\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.1', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '7.2.2', 'pluggy': '1.0.0'}, 'Plugins': {'html': '3.2.0', 'metadata': '2.0.4'}}
+rootdir: C:\Users\Teja Kumar\Documents\Sel1\Test_Codes
+plugins: html-3.2.0, metadata-2.0.4
+collecting ... collected 1 item
+
+testorange.py::Test_Orange::test_login PASSED                            [100%]
+
+============================= 1 passed in 20.92s ==============================
